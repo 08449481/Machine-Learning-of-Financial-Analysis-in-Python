@@ -1,0 +1,15 @@
+SELECT * FROM  indices
+
+Inner JOIN currencyinstruments on currencyinstruments.ID = indices.ID
+
+Inner JOIN irishequityinstruments on irishequityinstruments.ID = indices.ID
+
+Inner JOIN commodityinstruments on commodityinstruments.ID = indices.ID
+
+Inner JOIN governmentbonds on governmentbonds.ID = indices.ID
+
+Inner JOIN irishequityinstruments on irishequityinstruments.ID = indices.ID
+
+Inner JOIN iseqlagged on iseqlagged.ID = indices.ID
+
+;
