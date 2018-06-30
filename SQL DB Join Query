@@ -366,7 +366,7 @@ SELECT
 	GCDGIN20_Index,
 	GCDGIN30_Index
      
-     CL1_Comdty
+     CL1_Comdty,
      NG1_Comdty,
      HO1_Comdty,
      SBA_Comdty,
